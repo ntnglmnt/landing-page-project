@@ -46,14 +46,15 @@ header {
 
 h2 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 500;
     color:  #070508;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 .textcontainer {
-    font-size: 18px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     min-width: 420px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .deviceshortcutcontainer {
