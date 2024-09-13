@@ -2,7 +2,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: max-content;
 }
 
 header {
@@ -12,36 +11,38 @@ header {
     background-color: #00643D;
     padding-left: 240px;
     padding-right: 240px;
-    gap: 64px;
+    gap: 180px;
+    min-height: 100vh;
 }
 
 .headercontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 80px;
+    padding-top: 36px;
     width: 100%;
-    gap: 680px;
 }
 
 .logocontainer {
-    width: 50px;
-    height: 40px;
     padding-top: 12px;
 }
 
 .linkscontainer {
     display: flex;
-    justify-content: space-between;
-    gap: 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 46px;
+    min-width: 600px;
 }
 
 .headercontainertwo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    gap: 64px;
     padding-bottom: 100px;
+    gap: 48px;
+    width: 100%;
 }
 
 h2 {
@@ -75,3 +76,147 @@ button {
     align-items: end;
     justify-content: space-around;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #9FA9B2;
+    gap: 48px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.infotitle{
+    display: flex;
+    min-width: 800px;
+    min-height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: 36px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #08BF7C;
+    border: solid #00643D;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    height: 480px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    width: 360px;
+    height: 280px;
+    gap: 32px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+    color: #070508;
+    text-align: center;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    background-color: #00643D;
+    border: solid 5px #C78F22;
+    position: relative;
+}
+
+.quoteboxout {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    min-width: 1826px;
+    height: 360px;
+    background-color: #9FA9B2;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: "Courier New", Courier, monospace;;
+}
+
+.stump {
+    background-color: #C78F22;
+    transform: translateX(-50%);
+    border: solid 2px white;
+    padding: 32px 64px;
+    top: 180px;
+    left: 50%;
+    position: absolute;
+}
+
+.quoteboxin {
+    display: flex;
+    flex-direction: column;
+    max-width: 980px;
+
+}
+.signature {
+    display: flex;
+    min-width: 360px;
+    min-height: 60px;
+    background-color: #08BF7C;
+    margin-left: 900px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px black;
+}
+
+.devicecontainermain {
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    gap: 80px;
+    padding: 36px;
+    margin-bottom: 36px;
+}
+
+.textwall {
+    font-size: 20px;
+    background-color: #08BF7C;
+    display: flex;
+    gap: 82px;
+    width: 800px;
+    height: 180px;
+    align-items: center;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00643D;
+   
+}
+
+.devicebody {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #070508;
+}
+
